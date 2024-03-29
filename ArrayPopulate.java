@@ -9,7 +9,7 @@ public class ArrayPopulate {
         int[] ages = new int[5];
 
         for (int i=0; i < ages.length; i++){
-            System.out.println("Δώστε τον αριθμό για την θέση %d" + ages[i]);
+            System.out.println("Δώστε τον αριθμό για την θέση " + (i + 1));
             ages[i] = in.nextInt();
         }
 
