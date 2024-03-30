@@ -21,7 +21,7 @@ public class GradesFrequency {
         }
 
         for (int i = 0; i < count.length; i++){
-            System.out.printf("%d - %.2%%\n", i, (double) count[i] / grades.length * 100);
+            System.out.printf("Τα αποτελέσματτα είναι \ν%d - %.2%%\n", i, (double) count[i] / grades.length * 100);
         }
     }
 }
