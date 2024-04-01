@@ -7,6 +7,7 @@ public class DeuterosMikroteros {
         int minValue2 = Integer.MAX_VALUE;
         int minPosition = Integer.MAX_VALUE;
         int secondMinPosition = Integer.MAX_VALUE;
+        int hello;
 
         for (int i = 0; i < array1.length; i++){
             if (array1[i] < minValue){
